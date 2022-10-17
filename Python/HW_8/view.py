@@ -1,0 +1,11 @@
+def show_menu() -> int:
+    print("\n" + "=" * 20)
+    print("Select the desired action")
+    print("1. Find a student")
+    print("2. Make a selection of students by course")
+    print("3. Make a selection of students by direction")
+    print("4. Add student")
+    print("5. Update student details")
+    print("6. Delete student")
+    print("7. Finish work")
+    return int(input("Enter the number of the required action: "))
