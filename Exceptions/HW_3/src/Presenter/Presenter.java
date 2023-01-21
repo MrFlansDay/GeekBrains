@@ -1,5 +1,6 @@
 package Presenter;
 
+import Model.Gender;
 import Model.Windows;
 import View.Views;
 
@@ -18,4 +19,7 @@ public class Presenter {
         window.check(name, birthDate, phone);
     }
 
+    public String save(String name, String birthDate, String phone, Gender gender) throws Exception {
+        return window.save(name, birthDate, phone, gender);
+    }
 }
